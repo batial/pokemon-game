@@ -1,6 +1,10 @@
 package Logic;
 
 public class Squirtle extends Pokemon implements IWater{
+
+    public Squirtle() {
+    }
+
     @Override
     protected void tackleAtack() {
         System.out.println("Squirtle used TACKLE");

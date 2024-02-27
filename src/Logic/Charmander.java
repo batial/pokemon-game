@@ -1,6 +1,10 @@
 package Logic;
 
 public class Charmander extends Pokemon implements IFire {
+
+    public Charmander() {
+    }
+
     @Override
     protected void tackleAtack() {
         System.out.println("Charmander used TACKLE");

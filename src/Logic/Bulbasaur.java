@@ -1,6 +1,9 @@
 package Logic;
 
 public class Bulbasaur extends Pokemon implements IGrass{
+    public Bulbasaur() {
+    }
+
     @Override
     protected void tackleAtack() {
         System.out.println("Bulbasour used TACKLE");

@@ -2,6 +2,10 @@ package Logic;
 
 public class Pikachu extends Pokemon implements IElectric {
 
+
+    public Pikachu() {
+    }
+
     @Override
     protected void tackleAtack() {
         System.out.println("Pikachu used TACKLE");
